@@ -1,8 +1,18 @@
 #include<iostream.h>
 #include<conio.h>
+class A
+{
+  public:
+  show()
+  {
+    cout<<"\nBye Bye!";
+  }
+};
 int main()
 {
+  A a;
   cout<<"Hello World";
+  a.show();
   getch();
   return 0;
 }
